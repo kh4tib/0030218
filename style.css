@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+.main-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #161616; }
+
+.main-content {
+  width: 375px;
+  height: 667px;
+  border: 1px solid #7144c5;
+  border-radius: 24px;
+  position: relative; }
+
+.main-logo-image {
+  animation: main-animation;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-delay: 100ms;
+  opacity: 0;
+  width: 32px;
+  height: 32px;
+  margin: 48px 0 48px 24px;
+  position: relative; }
+
+.main-title {
+  animation: main-animation;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-delay: 150ms;
+  opacity: 0;
+  text-transform: uppercase;
+  line-height: 3rem;
+  width: 70%;
+  color: #fff;
+  margin: 0 0 24px 24px;
+  position: relative;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif; }
+
+.main-description {
+  animation: main-animation;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-delay: 200ms;
+  opacity: 0;
+  color: #fff;
+  width: 80%;
+  margin: 0 0 0px 24px;
+  letter-spacing: .75px;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Oswald", sans-serif; }
+
+.main-author-content {
+  animation: main-animation;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-delay: 250ms;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  margin: 48px 0 0 24px;
+  position: relative; }
+  .main-author-content .author-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    background: url(https://images.unsplash.com/photo-1517213157055-883855e6934b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=363bcaccc9b53ae4a9feb357902e73eb&auto=format&fit=crop&w=634&q=80) center center/cover no-repeat; }
+  .main-author-content .author-information {
+    margin-left: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400; }
+  .main-author-content .author-data {
+    display: flex; }
+  .main-author-content .author-follow {
+    margin-left: 16px;
+    padding: 0 8px;
+    border: 1px solid #7144c5;
+    border-radius: 16px;
+    color: #7144c5;
+    text-transform: uppercase;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+    font-size: 12px; }
+    .main-author-content .author-follow:hover {
+      color: #161616;
+      border: 1px solid #7144c5;
+      background: #7144c5; }
+  .main-author-content .article-data {
+    color: #636363;
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 500; }
+
+.main-button {
+  animation: main-animation;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-delay: 300ms;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 72px 24px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #7144c5;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 150ms ease-in-out;
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700; }
+  .main-button:hover {
+    color: #6de6a4;
+    text-decoration: line-through; }
+
+@keyframes main-animation {
+  0% {
+    bottom: -100px;
+    opacity: 0; }
+  100% {
+    bottom: 0;
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map */
